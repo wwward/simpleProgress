@@ -21,8 +21,11 @@ class display:
         
     def write(self,string):
         self.comm.write(string)
+        
+        
     
-    def __exit__(self):
+    def close(self):
+        print "Terminating: Closing serial port."
         self.comm.close()
         
 if __name__ == '__main__':
