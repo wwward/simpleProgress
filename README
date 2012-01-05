@@ -1,0 +1,10 @@
+by wwward
+Jan 2012
+Learning exercise,
+next steps:
+Need a timer object to run in the background to update the display
+when the code is called as a module by another program.
+
+simpleProgress.py = main display code
+testProgress.py = just a wrapper to test with.
+ 
